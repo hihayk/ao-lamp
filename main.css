@@ -39,7 +39,8 @@
 @media (max-width: 1000px) {
   :root {
     --sizesIncrement: 1.2;
-    --fontSize-0: 1rem; 
+    --fontSize-0: 1rem;
+    --circleSize: 14vw;
   }  
 }
 
@@ -206,6 +207,10 @@ img {
   fill: hsla(var(--accentH), var(--accentS), var(--accentL), 1);
 }
 
+.lampSvg {
+  width: calc(var(--circleSize) * 2.666);
+}
+
 .lampWrapper {
   position: relative;
   display: inline-block;
@@ -218,7 +223,7 @@ img {
   bottom: 0;
   margin: auto;
   height: var(--circleSize);
-  right: 18px;
+  right: calc(var(--circleSize) / 6);
 }
 
 .imagesGrid {
