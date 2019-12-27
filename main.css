@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Founders Grotesk';
+  src: url("fonts/FoundersGrotesk/FoundersGrotesk-Medium.eot");
+  src: url("fonts/FoundersGrotesk/FoundersGrotesk-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/FoundersGrotesk/FoundersGrotesk-Medium.woff2") format("woff2"), url("fonts/FoundersGrotesk/FoundersGrotesk-Medium.woff") format("woff"), url("fonts/FoundersGrotesk/FoundersGrotesk-Medium.ttf") format("truetype"), url("fonts/FoundersGrotesk/FoundersGrotesk-Medium.svg#FoundersGrotesk-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Founders Grotesk';
+  src: url("fonts/FoundersGrotesk/FoundersGrotesk-Regular.eot");
+  src: url("fonts/FoundersGrotesk/FoundersGrotesk-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/FoundersGrotesk/FoundersGrotesk-Regular.woff2") format("woff2"), url("fonts/FoundersGrotesk/FoundersGrotesk-Regular.woff") format("woff"), url("fonts/FoundersGrotesk/FoundersGrotesk-Regular.ttf") format("truetype"), url("fonts/FoundersGrotesk/FoundersGrotesk-Regular.svg#FoundersGrotesk-Regular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   --accentH: 51;
   --accentS: 97%;
@@ -43,7 +58,7 @@ body {
   color: var(--color1);
   margin: 0;
   padding: 8vw 4vw;
-  font-family: founders grotesk;
+  font-family: 'Founders Grotesk';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
